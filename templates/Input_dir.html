@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Input Directory</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+    
+<br>
+   
+<form action="/" method="post">
+    <div class="form-group">
+        <input autocomplete="off" autofocus class="form-control" name="directory" placeholder="Insert Directory to clean" type="text" size = "100">
+    </div>
+    <button class="btn btn-primary" type="submit">Clean Files</button>
+</form>
+<br>
+<div class="alert alert-warning" role="warning">
+    <p>Note: Please input path that contains the directory of the CSV files to be cleaned</p>
+</div>
+
+<div class="container">
+    {% for message in get_flashed_messages() %}
+    <div class="alert alert-success">
+        <button type="button" class="close" data-dismiss="success">&times;</button>
+        {{ message }}
+    </div>
+    {% endfor %}
+</div>

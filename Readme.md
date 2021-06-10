@@ -1,13 +1,17 @@
-Run instruction
+## Run instruction
 
-If on Windows, type:
+### If on Windows, type:
 
 set FLASK_APP=app.py
 python -m flask run
 
-Once you clicked into the link, just key in the directory you want the files to be cleaned.
+## Description 
 
-Possible improvements to the code: 
+Once you run Flask and click into the link, just key in the directory you want the files to be cleaned.
+
+Eg. You key in the link of DIR_A. The output CSV files will be saved in DIR_B and DIR_C.
+
+## Some possible improvements to the code: 
 
 Data can be further cleaned where necessary eg. check Race, Names, etc 
 Possibly add a decryption function too

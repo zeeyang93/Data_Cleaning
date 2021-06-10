@@ -24,3 +24,7 @@ Store the encryption key better
 
 Add styles.css for the web page
 
+## Answers to Section A
+
+https://docs.google.com/document/d/1G13AFsWIZOTXWI3JmXPP2zhROyO4WXNGa96ix1kegws/edit?usp=sharing
+

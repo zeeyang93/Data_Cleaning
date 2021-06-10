@@ -3,6 +3,7 @@
 ### If on Windows, type:
 
 set FLASK_APP=app.py
+
 python -m flask run
 
 ## Description 
